@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: rgb(34, 32, 68) ;
+    text-align: center;
+}
+.sidebar h1, a{
+    padding: 10px;
+}
+.sidebar a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.sidebar a:hover{
+    border: 1px solid white;
+    background-color: blue;
+    text-align: center;
+    transition: 0.5s;
+}
+.home{
+    background-image: url("https://cdn.britannica.com/10/152310-050-5A09D74A/Sand-dunes-Sahara-Morocco-Merzouga.jpg");
+    flex: 6;
+    order: -1;
+    background-color: white;
+    text-align: center;
+}
