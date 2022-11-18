@@ -4,7 +4,6 @@ body {
     box-sizing: border-box;
     background: black;
 }
-
 .box {
     width: 300px;
     height: 300px;
@@ -13,7 +12,6 @@ body {
     transition: 500ms ease-in-out;
     transition-delay: 300ms;
 }
-
 .box:hover {
     background: tomato;
     transform: rotate(45deg);
