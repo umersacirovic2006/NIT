@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background: aqua;
+    margin: 100px;
+    transition: 500ms ease-in-out;
+    transition-delay: 300ms;
+}
+
+.box:hover {
+    background: tomato;
+    transform: rotate(45deg);
+}
