@@ -17,27 +17,23 @@ body {
     justify-content: space-between;
     width: 550px;
     height: 40vh;
+    padding: 30px 25px;
 }
 .main .top {
     display: flex;
 }
 .main .top h2 {
-    margin-top: 50px;
-    margin-left: 15px;
+    margin-top: 30px;
+    margin-left: 10px;
 }
 .main .top img {
     width: 90px;
-    margin-top: 20px;
-}
-.main #logo {
-    margin-left: 20px;
 }
 .main #chip {
-    margin-left: 180px;
+    margin-left: 175px;
 }
 .center {
     margin-top: 10px;
-    margin-left: 20px;
 }
 .center h6 {
     font-size: 20px;
@@ -47,13 +43,10 @@ body {
     font-size: 30px;
 }
 .bottom {
-    margin-left: 20px;
     display: flex;
     justify-content: space-between;
-    margin-right: 30px;
     font-size: 25px;
 }
 .bottom .val {
-    margin-bottom: 20px;
     font-size: 20px;
 }
