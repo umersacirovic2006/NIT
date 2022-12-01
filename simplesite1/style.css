@@ -49,11 +49,11 @@ ul li a:hover{
     padding: 10px 30px;
     text-decoration: none;
     color: white;
-    
+    transition: 0.5s;
 }
 .btn:hover{
     border: 1px inset black;
     background: white;
     color: black;
-    transition: 0.5s;
+    
 }

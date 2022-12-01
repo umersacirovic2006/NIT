@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    width: 100%;
+    background-color: red;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.LOGO {
+    margin-left: 25px;
+}
+.nav-links {
+    width: 40%;
+}
+.nav-links ul {
+    display: flex;
+    list-style: none;
+}
+.nav-links a {
+    text-decoration: none;
+    color: cyan;
+    padding: 6px;
+}
