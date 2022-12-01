@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main {
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 550px;
+    height: 40vh;
+}
+.main .top {
+    display: flex;
+}
+.main .top h2 {
+    margin-top: 50px;
+    margin-left: 15px;
+}
+.main .top img {
+    width: 90px;
+    margin-top: 20px;
+}
+.main #logo {
+    margin-left: 20px;
+}
+.main #chip {
+    margin-left: 180px;
+}
+.center {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.center h6 {
+    font-size: 20px;
+}
+.center h4 {
+    padding-top: 6px;
+    font-size: 30px;
+}
+.bottom {
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    font-size: 25px;
+}
+.bottom .val {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
